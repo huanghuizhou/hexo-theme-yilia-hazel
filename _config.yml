@@ -1,23 +1,23 @@
 ﻿# Header-菜单
 menu:
   主页: /
-  技术笔记: https://zhousiwei.gitee.io/ibooks/
-  随笔: /tags/随笔/
+  相册: /photos
+  云喵: /tags/云喵/
 
 # subNav-子导航
 subNav:
-  - github: "#"
-  - github: "#" # (支持设置多个)
-  - gitee: "#" # 码云
-  - jianshu: "#" #简书
+  - github: "https://github.com/huanghuizhou"
+#  - github: "#" # (支持设置多个)
+#  - gitee: "#" # 码云
+#  - jianshu: "#" #简书
   # - cnblog: "#"
   # - blog: "#"
   # - csdn: "#"
   # - rss: "#"
   # - zhihu: "#"
-  # - qq: "img/2434387555.jpg"
-  # - weixin: "img/weixin_.png"
-  # - weibo: "#"
+  - qq: "assets/img/qq.png"
+  - weixin: "assets/img/微信.jpeg"
+  - weibo: "https://weibo.com/u/2613660291"
   # - douban: "#"
   # - segmentfault: "#"
   # - bilibili: "#"
@@ -32,7 +32,7 @@ subNav:
 hover_effect:
   ## `global` 0: Set separately, 1: Enable global 2: Close global
   ## `global` 0: 分开设置, 1: 全局启用, 2: 全局关闭
-  global: 2
+  global: 0
   # SubNav-导航
   subNav: true
 
@@ -64,11 +64,11 @@ open_in_new:
 # 打赏type设定：0-关闭打赏； 1-文章对应的md文件里有reward:true属性，才有打赏； 2-所有文章均有打赏
 reward_type: 2
 # 打赏wording
-reward_wording: '谢谢你请我吃糖果'
+reward_wording: '谢谢老板'
 # 支付宝二维码图片地址，跟你设置头像的方式一样。比如：/assets/img/alipay.jpg
-alipay: /img/alipay.jpg
+alipay: assets/img/支付宝.jpg
 # 微信二维码图片地址
-weixin: /img/weixin.png
+weixin: assets/img/微信.png
 
 # 目录
 # 目录设定：0-不显示目录； 1-文章对应的md文件里有toc:true属性，才有目录； 2-所有文章均显示目录
@@ -87,10 +87,10 @@ baidu_analytics: ''
 google_analytics: ''
 
 # 网站图标
-favicon: /favicon.ico
+favicon: assets/img/favicon.ico
 
 # 你的头像url
-avatar: /img/head.jpg
+avatar: assets/img/长生.png
 
 # 是否开启分享
 share_jia: true
@@ -108,7 +108,7 @@ disqus: false
 
 # 3、Gitment----基于GitHub的评论系统(关闭请设置gitment_owner为false)
 # 关于如何集成:https://www.jianshu.com/p/ac7658cc912f
-gitment_owner: false      #你的 GitHub ID
+gitment_owner: false      #你的 GitHub ID 30432797
 # 是否使用官方js(false可以提升访问速度，本地修改过一部分的js，官方js可能会出现服务器不稳定，不太建议使用)
 gitment_remote: false
 gitment_repo: ''          #存储评论的 repo name(需要在Github创建)
@@ -141,13 +141,13 @@ busuanzi:
 
 # 网易云音乐插件
 music:
-  enable: false
+  enable: true
   # 播放器尺寸类型(1：长尺寸、2：短尺寸)
   type: 2
-  #id: 1334445174  # 网易云分享的音乐ID(更换音乐请更改此配置项)
+  id: 497572729  # 网易云分享的音乐ID(更换音乐请更改此配置项)
   autoPlay: true  # 是否开启自动播放
   # 提示文本(关闭请设置为false)
-  text: '这似乎是首纯音乐，请尽情的欣赏它吧！'
+  text: ''
 
 # 页面点击小红心
 clickLove:
@@ -157,12 +157,12 @@ clickLove:
 # GitHub Ribbons(https://github.blog/2008-12-19-github-ribbons/)
 github:
   # (关闭请设置为false)
-  url: https://github.com/JoeyBling/hexo-theme-yilia-plus
+  url: false
 
 # 页脚 Litten(此配置项已弃用)
 # 帮助我们让更多人可以更方便使用Hexo，请尽量不要修改此主题配置
 pageFooter:
-  litten: GitHub:<a href="https://github.com/JoeyBling/hexo-theme-yilia-plus" target="_blank">hexo-theme-yilia-plus</a>
+  litten: by hazel
 
 # 开启百度站长平台自动推送(https://ziyuan.baidu.com/linksubmit/index)
 baidu_push: false
@@ -171,10 +171,10 @@ baidu_push: false
 # 版权声明type设定：0-关闭版权声明； 1-文章对应的md文件里有copyright: true属性，才有版权声明； 2-所有文章均有版权声明
 copyright_type: 2
 # 版权声明自定义文本(关闭请设置为false)
-copyright_text: 
+copyright_text:
 
 # 网站成立年份(默认为 2018，若填入年份小于当前年份，则显示为 2018-2019 类似的格式)
-since: 2018
+since: 2020
 
 # Progress Bar | 页面加载进度条
 # Demo: http://github.hubspot.com/pace/docs/welcome/
@@ -192,7 +192,7 @@ apple_touch_icon: '/apple-touch-icon-180x180.png'
 
 # Tab Title Change | 标签页标题切换
 tab_title_change:
-  enable: true
+  enable: false
   left_tab_title: '(つェ⊂) 我藏好了哦~ '
   return_tab_title: '(*´∇｀*) 被你发现啦~ '
 
@@ -283,4 +283,4 @@ friends:
     url: https://blog.csdn.net/qq_30930805
 
 # 关于我
-aboutme: 主要涉及技术：<br>Java后端开发、聚合支付、<br>公众号开发、开源爱好者、Linux<br><br>联系QQ:2434387555<br><br>很惭愧<br><br>只做了一点微小的工作<br>谢谢大家
+aboutme: <center>hazel.浙江舟山 1995<br><br> 平时是程序员，周末是猫咖店老板。<br> <br> <br> 御峰大厦1502室 云喵猫咖🐈☕<br>️<br> <br> 欢迎前来撸猫<br><br><img src="/assets/img/云喵.jpg" width="200px"></center>

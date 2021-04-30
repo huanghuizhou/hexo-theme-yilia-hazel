@@ -56,7 +56,7 @@
     <% } %>
 
     <% if (((theme.copyright_type === 2) || (theme.copyright_type === 1 && post.copyright)) && !index){ %>
-    <div class="declare"> 
+    <div class="declare">
       <ul class="post-copyright">
         <li>
           <strong>本文作者：</strong>
@@ -64,7 +64,7 @@
         </li>
         <li>
           <strong>本文链接：</strong>
-          <a href="<%- yilia_plus_full_url(post.path) %>" title="<%= post.title %>" target="_blank"><%- yilia_plus_full_url(post.path) %></a>
+          <a href="<%- yilia_plus_full_url(post.path) %>" title="<%= post.title %>" ><%- yilia_plus_full_url(post.path) %></a>
         </li>
         <% if (theme.copyright_text || theme.copyright_text == null){ %>
         <li>

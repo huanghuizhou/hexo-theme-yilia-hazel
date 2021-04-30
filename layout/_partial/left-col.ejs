@@ -17,7 +17,7 @@
 		<nav class="header-menu">
 			<ul>
 			<% for (var i in theme.menu){ %>
-				<li><a href="<%- url_for(theme.menu[i]) %>" <% if (theme.open_in_new.menu){ %>target="_blank"<% } %>><%= i %></a></li>
+				<li><a href="<%- url_for(theme.menu[i]) %>" <% if (theme.open_in_new.menu){ %><% } %>><%= i %></a></li>
 			<%}%>
 			</ul>
 		</nav>
@@ -32,8 +32,8 @@
 			<div class="social">
 				<% for (var i in theme.subNav){ %>
 					<% for (var nav in theme.subNav[i]){ %>
-						<a class="<%= nav %>" href="<%- url_for(theme.subNav[i][nav]) %>" 
-												title="<% if (__('subNav.title.'+ nav)){ %><%= __('subNav.title.'+ nav) %><% } else { %><%= nav %><% } %>" <% if (theme.open_in_new.subNav){ %>target="_blank"<% } %>><i class="icon-<%= nav %>"></i></a>
+						<a class="<%= nav %>" href="<%- url_for(theme.subNav[i][nav]) %>"
+												title="<% if (__('subNav.title.'+ nav)){ %><%= __('subNav.title.'+ nav) %><% } else { %><%= nav %><% } %>" <% if (theme.open_in_new.subNav){ %><% } %>><i class="icon-<%= nav %>"></i></a>
 					<%}%>
 				<%}%>
 			</div>
@@ -51,5 +51,5 @@
 			<% } %>
 		<% } %>
 		</nav>
-	</header>		
+	</header>
 </div>
