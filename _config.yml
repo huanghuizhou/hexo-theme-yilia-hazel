@@ -2,7 +2,7 @@
 menu:
   主页: /
   相册: /photos
-  云喵: /tags/云喵/
+#  云喵: /tags/云喵/
 
 # subNav-子导航
 subNav:
@@ -62,7 +62,7 @@ open_in_new:
 
 # 打赏
 # 打赏type设定：0-关闭打赏； 1-文章对应的md文件里有reward:true属性，才有打赏； 2-所有文章均有打赏
-reward_type: 2
+reward_type: 0
 # 打赏wording
 reward_wording: '谢谢老板'
 # 支付宝二维码图片地址，跟你设置头像的方式一样。比如：/assets/img/alipay.jpg
@@ -276,11 +276,11 @@ friends:
   GitHub:
     url: https://github.com/JoeyBling
   码云:
-    url: https://gitee.com/zhousiwei
+    url: https://gitee.com/zhousiwei.deploy_git
   简书:
     url: https://www.jianshu.com/u/02cbf31a043a
   CSDN:
     url: https://blog.csdn.net/qq_30930805
 
 # 关于我
-aboutme: <center>hazel.浙江舟山 1995<br><br> 平时是程序员，周末是猫咖店老板。<br> <br> <br> 御峰大厦1502室 云喵猫咖🐈☕<br>️<br> <br> 欢迎前来撸猫<br><br><img src="/assets/img/云喵.jpg" width="200px"></center>
+aboutme: <center>hazel.浙江舟山 1995<br><br> 程序员/资深铲屎官/退役猫咖老板<br> <br> ️</center>
